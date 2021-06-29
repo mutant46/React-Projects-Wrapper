@@ -1,17 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import reactDom from "react-dom";
+import reactDOm from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// css files
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import "./index.css";
+
+// Importing Apps
+
+import Viewport from "./viewport/Viewport";
+import Projects from "./ProjectWrapper/Projects";
+
+const App = () => {
+  return (
+    <main>
+      <Viewport />
+      <h1
+        style={{
+          padding: "2em 0em 0.5em 0em",
+          textAlign: "center",
+          letterSpacing: "3px",
+        }}
+      >
+        PROJECTS
+      </h1>
+      <Projects />
+    </main>
+  );
+};
+
+reactDom.render(<App />, document.getElementById("root"));
