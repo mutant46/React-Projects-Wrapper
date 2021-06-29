@@ -1,0 +1,50 @@
+.project-container {
+    width: 100%;
+    margin: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 25%;
+    background-color: #F4F6F7;
+    line-height: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+}
+
+.intro {
+    padding: 2em 1em;
+    line-height: 35px;
+}
+
+.intro h2,
+h4 {
+    font-size: 16px;
+    color: #273746;
+}
+
+.intro span {
+    color: #D35400;
+    font-size: 15px;
+}
+
+.intro a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px 30px;
+    background-color: #D35400;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: background-color 0.2s linear;
+}
+
+.intro a:hover {
+    background-color: #273746;
+}
