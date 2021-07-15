@@ -50,7 +50,7 @@ h4 {
     background-color: #273746;
 }
 
-@media screen and ( max-width:9000px) {
+@media screen and ( max-width:900px) {
     .project-container {
         justify-content: center;
     }
