@@ -50,14 +50,12 @@ h4 {
     background-color: #273746;
 }
 
-@media screen and ( max-width:1024px) {
-    .project {
-        width: 50%;
+@media screen and ( max-width:9000px) {
+    .project-container {
+        justify-content: center;
     }
-}
-
-@media screen and ( max-width:768px) {
     .project {
-        width: 100%;
+        margin-right: 0em;
+        width: 70%;
     }
 }
