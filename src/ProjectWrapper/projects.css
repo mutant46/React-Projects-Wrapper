@@ -3,13 +3,14 @@
     margin: 3em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .project {
-    width: 25%;
-    background-color: #F4F6F7;
+    width: 30%;
+    background-color: #D5D8DC;
     line-height: 20px;
+    margin-right: 2em;
+    border: 1px solid #D5D8DC
 }
 
 .project img {
@@ -30,7 +31,7 @@ h4 {
 
 .intro span {
     color: #D35400;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .intro a {
@@ -47,4 +48,16 @@ h4 {
 
 .intro a:hover {
     background-color: #273746;
+}
+
+@media screen and ( max-width:1024px) {
+    .project {
+        width: 50%;
+    }
+}
+
+@media screen and ( max-width:768px) {
+    .project {
+        width: 100%;
+    }
 }
