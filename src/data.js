@@ -9,5 +9,11 @@ export const ProjectData = [{
         'name': 'Tour List',
         'topic': 'UseEffect & Conditional rendering',
         'link': 'https://useeffect-project.netlify.app/'
+    },
+    {
+        'img': 'project-3.png',
+        'name': 'Reviews App',
+        'topic': 'UseState, scss',
+        'link': 'https://mutant46-reviews.netlify.app/'
     }
 ]
